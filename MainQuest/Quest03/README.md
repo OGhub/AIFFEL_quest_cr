@@ -7,48 +7,18 @@
 
   
 ~~~
-AIFFEL_quest_cr
-├── Exploration
-│   ├── Ex01
-│   ├── Ex02
-│   ├── Ex03
-│   ├── Ex04
-│   ├── Ex05
-│   ├── Ex06
-│   ├── Ex07
-│   ├── Ex08
-│   └── README.md
-├── Fl01
-├── Flutter
-│   ├── Fl01
-│   ├── Fl02
-│   ├── Fl03
-│   ├── Fl04
-│   ├── Fl05
-│   ├── Fl06
-│   ├── Fl07
-│   ├── Fl08
-│   ├── Flutter
-│   └── README.md
-├── MainQuest
-│   ├── Quest01
-│   ├── Quest02
-│   ├── Quest03
-│   ├── Quest04
-│   ├── Quest05
-│   ├── Quest06
-│   ├── Quest07
-│   ├── Quest08
-│   └── README.md
-├── Python
-│   ├── Py01
-│   ├── Py02
-│   ├── Py03
-│   ├── Py04
-│   ├── Py05
-│   ├── Py06
-│   ├── Py07
-│   ├── Py08
-│   └── README.md
-└── README.md
+AIFFEL_quest_cr/
+  └── MainQuest/
+      └── Quest03/
+          ├── Data/
+          │   ├── cats_and_dogs_filtered/
+          │   │   ├── train/
+          │   │   │   ├── cats/
+          │   │   │   ├── dogs/
+          │   │   ├── validation/
+          │   │   │   ├── cats/
+          │   │   │   ├── dogs/
+          │   │   └── vectorize.py
+          ├── MainQuest03_Project01.ipynb
+          ├── MainQuest03_Project02.ipynb
 ~~~
