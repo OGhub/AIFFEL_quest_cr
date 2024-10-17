@@ -7,38 +7,22 @@
 
   
 ~~~
-Quest03-1
-│   best_model.keras
-│   MainQuest03_01.ipynb
-│   README.md
-│   
-└───Data
-    └───chest_xray
-        ├───test
-        │   ├───NORMAL
-        │   │       normal_image1.jpg
-        │   │       normal_image2.jpg
-        │   │       ...
-        │   └───PNEUMONIA
-        │           pneumonia_image1.jpg
-        │           pneumonia_image2.jpg
-        │           ...
-        ├───train
-        │   ├───NORMAL
-        │   │       normal_image1.jpg
-        │   │       normal_image2.jpg
-        │   │       ...
-        │   └───PNEUMONIA
-        │           pneumonia_image1.jpg
-        │           pneumonia_image2.jpg
-        │           ...
-        └───val
-            ├───NORMAL
-            │       normal_image1.jpg
-            │       normal_image2.jpg
-            │       ...
-            └───PNEUMONIA
-                    pneumonia_image1.jpg
-                    pneumonia_image2.jpg
-                    ...
+AIFFEL_quest_cr/
+  └── MainQuest/
+      └── Quest03_1/
+          ├── Data/
+          │   ├── chest_xray/
+          │   │   ├── test/
+          │   │   │   ├── NORMAL/
+          │   │   │   ├── PNEUMONIA/
+          │   │   ├── train/
+          │   │   │   ├── NORMAL/
+          │   │   │   ├── PNEUMONIA/
+          │   │   └── val/
+          │   │       ├── NORMAL/
+          │   │       ├── PNEUMONIA/
+          │   │   
+          ├── best_model.keras
+          ├── MainQuest03_01.ipynb
+          ├── README.md
 ~~~
