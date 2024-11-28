@@ -1,54 +1,23 @@
 # AIFFEL_quest_cr
 
-* AIFFEL 과정 중 진행하는 프로젝트, 피어리뷰를 관리하는 Repository입니다.
-* 기본적인 틀을 제공하며, 파일이나 폴더를 수정/업로드하여 사용합니다.
-* 주의: Flutter 프로젝트는 프로젝트 폴더를 업로드합니다.
----
+많은 모델으로 실험해보지는 못했다.  
+EfficientNetB0으로 진행했다.  
+![image](https://github.com/user-attachments/assets/53d766c6-0457-4a25-8a11-c5e2e3897d71)
 
-  
-~~~
-AIFFEL_quest_cr
-├── Exploration
-│   ├── Ex01
-│   ├── Ex02
-│   ├── Ex03
-│   ├── Ex04
-│   ├── Ex05
-│   ├── Ex06
-│   ├── Ex07
-│   ├── Ex08
-│   └── README.md
-├── Fl01
-├── Flutter
-│   ├── Fl01
-│   ├── Fl02
-│   ├── Fl03
-│   ├── Fl04
-│   ├── Fl05
-│   ├── Fl06
-│   ├── Fl07
-│   ├── Fl08
-│   ├── Flutter
-│   └── README.md
-├── MainQuest
-│   ├── Quest01
-│   ├── Quest02
-│   ├── Quest03
-│   ├── Quest04
-│   ├── Quest05
-│   ├── Quest06
-│   ├── Quest07
-│   ├── Quest08
-│   └── README.md
-├── Python
-│   ├── Py01
-│   ├── Py02
-│   ├── Py03
-│   ├── Py04
-│   ├── Py05
-│   ├── Py06
-│   ├── Py07
-│   ├── Py08
-│   └── README.md
-└── README.md
-~~~
+훈련 정확도 99% 에 훈련 손실은 0.02 으로 상당히 잘 나왔다.  
+
+구글 코랩에서 진행했는데 처음에 .keras로 저장해서 모델이 테스트 성능이 50% 나오는 문제가 있었는데,   
+한참 해결을 못하다가, .h5으로 저장해서 로드 하니 그러한 문제가 없어졌다.  
+
+![image](https://github.com/user-attachments/assets/c6743d32-8180-4c07-b3fe-10947ba8d32a)
+
+플러터에서 모델 연동이 어려웠다. 외관은 그럴싸한데, 예측이 안된다
+tflite모듈이 뭔가 인식이 안되는것 같다.
+![image](https://github.com/user-attachments/assets/4c899150-d594-4c01-bf61-052128e5b621)
+
+
+![image](https://github.com/user-attachments/assets/35b55c73-4c67-463f-af52-f863e9c7b45f)
+![image](https://github.com/user-attachments/assets/84f1a582-0f04-4ef4-91da-b9ea6683baf5)
+
+권오근 회고.
+모델 훈련까지는 되었지만 플러터를 연동하는 과정에서 많은 어려움이 있었다.  
